@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+.tsc/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+.eslintcache
+*.tsbuildinfo
